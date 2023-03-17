@@ -1,0 +1,71 @@
+.cover {
+  background: rgb(28, 27, 27)
+}
+
+.header {
+  color: rgb(252, 252, 252);
+  font-family: var(--header1);
+  /* font-weight: 700; */
+  margin: 10px 0;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40px;
+  background: var(--brown1);
+  bottom: -10px;
+  left: -10px;
+}
+
+.label {
+  font-family: var(--text1);
+  color: rgb(252, 252, 252);
+}
+
+.input {
+  border: 1px solid rgb(252, 252, 252);
+  background: none;
+  width: 100%;
+  padding: 5px 10px;
+  color: white;
+  font-family: var(--text1);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid rgb(252, 252, 252);
+  padding: 5px 10px;
+  color: rgb(252, 252, 252);
+  background: none;
+  font-family: var(--text1);
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.sendbutton {
+  font-family: var(--text1);
+  color: rgb(252, 252, 252);
+  background-color: var(--brown2);
+  padding: 7px 20px;
+  margin-top: 10px;
+  transition: background-color .2s;
+}
+
+.sendbutton:hover {
+  background-color: var(--brown1);
+}
+
+.send {
+  font-family: var(--text1);
+  color: rgb(252, 252, 252);
+}

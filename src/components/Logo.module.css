@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  font-family: var(--header1);
+  font-weight: bold;
+}
+
+.fit {
+  margin-right: 5px;
+}
+
+.builders {
+  color: var(--blue3);
+}

@@ -1,0 +1,54 @@
+.landing {
+  height: 100vh;
+  background: url("../icons/construction.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(1px);
+}
+
+.text {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.h1 {
+  font-family: var(--header2);
+  font-weight: 700;
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: var(--blue2);
+  bottom: -10px;
+}
+
+.article {
+  font-family: var(--text1);
+  color: var(--brown1);
+  margin: 20px 0;
+}
+
+.readmorebtn {
+  background-color: var(--brown2);
+  padding: 10px 20px;
+  font-family: var(--text1);
+  transition: background-color .2s ease-in-out;
+}
+
+.readmorebtn:hover {
+  background-color: var(--brown1);
+}
+

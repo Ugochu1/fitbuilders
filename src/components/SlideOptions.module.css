@@ -1,0 +1,62 @@
+.slider {
+  position: fixed;
+  right: -120%;
+  left: 120%;
+  bottom: 0;
+  top: 0;
+  transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.header {
+  position: relative;
+  height: 10vh;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 2px;
+  background: white;
+  bottom: 0;
+  position: absolute;
+  left: 5px;
+}
+
+.cancelbtn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+}
+
+.linkbody {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+}
+
+.links {
+  display: flex;
+  color: white;
+  font-family: var(--text1);
+  align-items: center;
+  /* font-size: 18px; */
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.contactusbtn {
+  width: 100%;
+  background: var(--brown1);
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  font-family: var(--header2);
+}
+
+.activeLink {
+  color: var(--brown2);
+  font-size: 18px;
+}

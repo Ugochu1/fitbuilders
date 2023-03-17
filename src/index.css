@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&display=swap');
+
+:root {
+  --text1: 'League Spartan', sans-serif;
+  --header1: 'Manrope', sans-serif;
+  --header2: 'Archivo', sans-serif;
+
+  --blue1: rgb(39, 7, 181);
+  --blue2: rgb(62, 20, 250);
+  --blue3: rgb(27, 3, 138);
+
+  --brown1: rgb(189, 124, 55);
+  --brown2: rgb(173, 93, 9);
+  --brown3: rgb(240, 131, 17);
 }

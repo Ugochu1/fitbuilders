@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid gray; */
+  box-shadow: 0 0px 2px 0px gray;
+}
+
+.contactusbtn {
+  background: var(--blue2);
+  font-family: var(--text1);
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  /* transition: background-color 0.3s; */
+}
+
+.contactusbtn:hover {
+  background: linear-gradient(to right, var(--blue2), var(--blue1));
+}
+
+.link {
+  font-family: var(--text1);
+  margin-right: 15px;
+  padding: 4px 0;
+  color: rgb(123, 122, 125);
+}
+
+.activeLink {
+  border-bottom: 1.5px solid var(--blue1);
+  color: black;
+}
+
+.line {
+  display: gray;
+  height: 2px;
+  width: 15px;
+  background: black;
+  margin-top: 3px;
+}

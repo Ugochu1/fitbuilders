@@ -1,0 +1,58 @@
+.header {
+  font-family: var(--header1);
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background: var(--brown1);
+  bottom: -3px;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+.writeup {
+  font-family: var(--text1);
+}
+
+.readmorebtn {
+  padding: 7px 20px;
+  background-color: var(--blue1);
+  color: white;
+  transition: background-color .2s;
+}
+
+.readmorebtn:hover {
+  background-color: var(--blue2);
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+.opacity1 {
+  opacity: 1;
+  transition: opacity .7s;
+}
+
+.slideUpOFF {
+  opacity: 0;
+  transform: translateY(30px);
+  position: absolute;
+}
+
+.slideUpON {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity .7s, transform .7s;
+}
